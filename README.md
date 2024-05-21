@@ -5,7 +5,7 @@
  <h3 align="center">App my birthday</h3>
 <div align="center">
   <a href="https://github.com/OksanaOxana/My_birthday/blob/main/photo_project.jpg">
-    <img src="https://github.com/OksanaOxana/My_birthday/blob/main/photo_project.jpg" alt="Logo" width="80" height="100">
+    <img src="https://github.com/OksanaOxana/My_birthday/blob/main/photo_project.jpg" alt="Logo" width="200" height="100">
   </a>
 </div> 
 
