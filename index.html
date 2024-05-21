@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>BirthDay</title>
+      <link rel="icon" href="data:,">
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Braah+One&family=Playball&display=swap" rel="stylesheet">
+   </head>
+   <body class="background">
+      <audio id="myAudio" src="happy-birthday-to-you-piano-version-13976.mp3" loop="loop" autoplay="allowed"></audio>
+      <div class="heading">
+         <h1>My birthday will be through...</h1>
+      </div>
+      <div class="btn">
+         <button id="myButton"><img src="play.png"></button>
+      </div>
+      <div class="container">
+         <div class="birthday">
+            <div class="block">
+               <h4 class="days"></h4>
+               <h3>Days</h3>
+            </div>
+         </div>
+         <div class="birthday">
+            <div class="block">
+               <h4 class="hours"></h4>
+               <h3>Hours</h3>
+            </div>
+         </div>
+         <div class="birthday">
+            <div class="block">
+               <h4 class="minutes"></h4>
+               <h3>Minutes</h3>
+            </div>
+         </div>
+         <div class="birthday">
+            <div class="block">
+               <h4 class="seconds"></h4>
+               <h3>Seconds</h3>
+            </div>
+         </div>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+      <script src="index.js"></script>
+   </body>
+</html>
